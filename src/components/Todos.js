@@ -7,7 +7,7 @@ export default function Todos() {
   const [state, dispatch] = useReducer(reducer, initialState)
 
   return (
-    <div>
+    <div className="todos">
       <TodoForm state={state} dispatch={dispatch} />
       <TodoList state={state} dispatch={dispatch} />
     </div>

@@ -26,7 +26,8 @@ export default function TodoForm({ dispatch }) {
           placeholder="Add Todo"
           value={newTodo.item || ''}
           onChange={handleChange}
-        />      
+        />
+        <button type="submit">Add</button>
       </form>
     </div>
   )
