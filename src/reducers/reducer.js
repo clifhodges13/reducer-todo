@@ -5,12 +5,12 @@ export const initialState = [
     id: 3892987589
   },
   {
-    item: 'Work Please',
+    item: 'Get Texas License',
     completed: false,
     id: Date.now()
   },
   {
-    item: 'Seriously',
+    item: 'Buy groceries',
     completed: false,
     id: Date.now() + 100
   }

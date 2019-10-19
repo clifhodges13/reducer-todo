@@ -13,7 +13,7 @@ export default function Todo({ todo, dispatch }) {
 
   return (
     <div onClick={handleClick} className={`todo-item ${isComplete ? 'completed' : ''}`}>
-      <h3>⃞ {todo.item}</h3>
+      {!isComplete ? <h3>⃞ {todo.item}</h3> : <h3>✔️ {todo.item}</h3>}
     </div>
   )
 }

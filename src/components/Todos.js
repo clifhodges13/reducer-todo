@@ -8,6 +8,7 @@ export default function Todos() {
 
   return (
     <div className="todos">
+      <h1>React Todo App</h1>
       <TodoForm state={state} dispatch={dispatch} />
       <TodoList state={state} dispatch={dispatch} />
     </div>
