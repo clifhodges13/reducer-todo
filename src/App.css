@@ -1,0 +1,31 @@
+.App {
+  text-align: center;
+  height: 100vh;
+  background: url('https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/1076/articles/2017/03/apr17-remys-world-1000-0-1493469520.jpg?resize=480:*');
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todos {
+  background: rgba(70, 130, 180, .9);
+  width: 30%;
+  padding: 10%;
+  border-radius: 10px;
+}
+
+.todo-item {
+  color: white;
+  text-align: left;
+}
+
+.todo-item:hover {
+  cursor: pointer;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: rgba(0,0,0,.5);
+}
